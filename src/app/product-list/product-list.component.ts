@@ -10,6 +10,9 @@ export class ProductListComponent implements OnInit {
   products = products;
   constructor() { }
 
+  share() {
+    window.alert("this product has been shared");
+  }
   ngOnInit() {
   }
 
